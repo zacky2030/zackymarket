@@ -1,4 +1,0 @@
-TEMPLATE_ID = template_8bcwlgi
-SERVICE_ID = service_htq2b8w
-USER_ID = 7YoIvR0VJhZ8U7o48
-IP = 87.209.65.237
