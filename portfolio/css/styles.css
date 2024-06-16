@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 20px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+/* Product Section */
+.product {
+    background: #333;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.product button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #388E3C;
+}
+
+/* Detailed Section */
+.detailed-section {
+    background: #1f1f1f;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailed-section h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.detailed-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.detailed-item {
+    background: #333;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.detailed-item h3 {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+}
+
+.detailed-item p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1f1f1f;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid #444;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+form label {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+form input, form textarea {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #444;
+    border-radius: 20px;
+    font-size: 1rem;
+    background: #333;
+    color: #e0e0e0;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #388E3C;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    position:relative;
+    text-align: center;
+    padding: 1.5rem 0;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 0 0;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #388E3C;
+}
+
+
+.social-icons {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.social-icons {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #4CAF50; /* Adjust color as needed */
+    transition: color 0.3s ease;
+}
+
+.social-icons:hover {
+    color: #388E3C; /* Adjust hover color */
+}
